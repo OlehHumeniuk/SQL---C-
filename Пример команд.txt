@@ -10,6 +10,11 @@ INSERT owners (“8”, “Dimonid”, "16");
 INSERT owners (“9”, “Baser”, "136");
 INSERT owners (“10”, “Falcon”, "16");
 Print owners;
+select * from owners;
+select owner_id, owner_name from owners;
+select owner_id, owner_age from owners;
+select owner_id from owners;
+delete owners;
 
 Все, кто это читает, спасибо за внимание в моем проекте. Знаю проект сделан не лучшим образом, но это то, что я могу сейчас как начинающий программист. ;)
 Смотрите тут как бы такой же синтаксис что и в бд, вот сверху примеры самих команд.
